@@ -1,4 +1,10 @@
-# Atividade - Microservices
+# Documentaçâo - Microservices
+
+
+## Request e Response
+
+Estes são os meios de comunicaçâo por API, de forma que um navegador pode fazer uma requisição a um servidor através do protocolo HTTP. O servidor por sua vez tem a função de atender as requisições, e esse é o response.
+
 
 ## Comandos do github
 

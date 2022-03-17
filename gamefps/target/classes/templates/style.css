@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    background-color: black;
+    height: 6rem;
+}
+
+header img {
+    height: 50%;
+}
+
+#game_background {
+    height: 30rem;
+    background-image: url(../img/background.jpg);
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#game_Div {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.game-section {
+    display: flex;
+    border-radius: 1rem;
+    background-color: #e4e4e4 ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 28%;
+    height: 15rem;
+    border: 4px solid brown;
+    padding: 1.5rem;
+    font-weight: 900;
+}
+
+.game-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.game-description {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.game-price {
+    font-size: 1.2rem;
+    color: brown;
+}
+
+footer {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    height: 2.5rem;
+}
